@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Patrick+Hand&display=swap');
+
+/* Chalk lettering over a softly smudged slate, framed in wood. */
+.weekly-board{background-color:#202c28;background-image:radial-gradient(ellipse at 18% 17%,#d6e5d40b 0,transparent 43%),radial-gradient(ellipse at 90% 55%,#e1e8d909 0,transparent 48%),repeating-linear-gradient(172deg,transparent 0 43px,#e9f2e003 44px 46px,transparent 48px 98px);border:9px solid #795331;border-image:none;box-shadow:inset 0 0 28px #0008,inset 0 0 0 2px #c1af8655,0 3px 0 #bd9060,7px 10px 0 #091e16;color:#f0f0df}
+.weekly-board .board-heading{border-bottom:3px double #e7ebdba8;padding:23px 0 21px;margin:0 24px}
+.weekly-board .board-heading h2{font:700 clamp(40px,4.4vw,57px)/1.1 'Caveat','Segoe Print',cursive;color:#f0f0df;letter-spacing:1px;transform:rotate(-1.2deg);text-shadow:.4px .5px 0 #ffffff60,-.4px 0 1px #ffffff45}
+.weekly-board .special-row{border-bottom:2px dashed #e4ecd644;padding:24px 0;column-gap:22px}
+.weekly-board .special-row h3{font:700 29px/1.2 'Caveat','Segoe Print',cursive;color:#efe6a2;letter-spacing:.2px;text-shadow:0 0 1px #fdf7bb80;white-space:nowrap}
+.weekly-board .special-food h4{font:700 32px/1.15 'Caveat','Segoe Print',cursive;color:#f0f0df;letter-spacing:.2px;margin-bottom:8px;text-shadow:.4px 0 1px #ffffff45}
+.weekly-board .special-food p{font:400 20px/1.45 'Patrick Hand','Segoe Print',cursive;color:#e0e6d9;letter-spacing:.15px}
+.weekly-board .special-food strong{font-weight:400;color:#f4f1d9}
+.weekly-board .special-food .row-drinks{font-size:20px;font-weight:400;color:#eee3a0;margin-top:10px}
+.weekly-board .special-food .boneless-title{font-size:28px;margin-top:17px}
+.weekly-board .event-tag{font:700 14px/1.4 'DM Sans',sans-serif;letter-spacing:.6px;padding:7px 10px}
+.come-as-you-are{text-align:center;display:flex;flex-direction:column;align-items:center;gap:4px}
+.ticker .come-as-you-are small{display:block;font:400 9px/1.25 'DM Sans',sans-serif;letter-spacing:.25px;text-transform:none}
+.ticker>b{font-size:24px;font-weight:400}
+.weekend-note h2{overflow-wrap:normal;font-size:clamp(28px,3vw,38px)}
+@media(min-width:1001px){.weekly-board .special-row{grid-template-columns:145px minmax(0,1fr)}.weekly-board .event-tag{grid-column:2;justify-self:start}.weekly-board .special-food{grid-column:2}}
+@media(max-width:560px){.weekly-board{border-width:6px}.weekly-board .board-heading{margin:0 16px;padding:21px 0 18px}.weekly-board .board-heading h2{font-size:43px;letter-spacing:0}.weekly-board .special-row{margin:0 16px;gap:12px 10px;padding:23px 0}.weekly-board .special-row h3{font-size:27px}.weekly-board .special-food h4{font-size:31px}.weekly-board .special-food p,.weekly-board .special-food .row-drinks{font-size:19px;line-height:1.5}.weekly-board .event-tag{font-size:11px;letter-spacing:.3px;padding:7px 8px}.ticker{padding:15px 5%;gap:20px}.ticker>b:not(:last-child){display:none}.ticker .come-as-you-are small{font-size:9px}.weekend-note h2{font-size:36px}}
+@media(max-width:360px){.weekly-board .special-row{margin:0 12px}.weekly-board .board-heading{margin:0 12px}.weekly-board .board-heading h2{font-size:38px}.weekly-board .special-row h3{font-size:25px}.weekly-board .event-tag{font-size:10px;padding:6px}.weekly-board .special-food h4{font-size:29px}.weekend-note h2{font-size:32px}}
